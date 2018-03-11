@@ -1,0 +1,19 @@
+{
+  "name": "architect-command-runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "architect": "architect"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular-devkit/architect": "0.0.6",
+    "@angular-devkit/architect-cli": "0.0.6",
+    "@angular-devkit/core": "0.4.5",
+    "@angular-devkit/run-command": "file:@angular-devkit_run-command.tgz",
+    "rxjs": "^5.5.6"
+  }
+}

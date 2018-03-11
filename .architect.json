@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/@angular-devkit/architect/src/workspace-schema.json",
+  "name": "pet-finder",
+  "version": 1,
+  "root": "src",
+  "defaultProject": "app",
+  "projects": {
+    "app": {
+      "projectType": "application",
+      "root": "./src",
+      "defaultTarget": "command",
+      "targets": {
+        "command": {
+          "builder": "@angular-devkit/run-command:command",
+          "options": {
+            "command": "node",
+            "args": [
+              "index.js"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
