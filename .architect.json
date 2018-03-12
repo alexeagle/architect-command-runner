@@ -13,9 +13,10 @@
         "command": {
           "builder": "@angular-devkit/run-command:command",
           "options": {
-            "command": "node",
+            "command": "bazel",
             "args": [
-              "index.js"
+              "build",
+              ":src"
             ]
           }
         }
